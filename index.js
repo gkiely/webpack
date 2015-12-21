@@ -1,4 +1,4 @@
 var bear = require('./bear.js');
+var $    = require('jquery');
 
-
-alert(bear);
+console.log(bear);
