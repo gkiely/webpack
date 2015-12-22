@@ -411,8 +411,8 @@
 			"file": "todo.html",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
+				"buffer_size": 140,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -670,7 +670,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/grantkiely/sites/webpack"
+		"/C/sites/webpack"
 	],
 	"file_history":
 	[
@@ -1034,15 +1034,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 140,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								72,
+								72
 							]
 						],
 						"settings":
@@ -1050,7 +1050,9 @@
 							"bs_sintax": "html",
 							"buffer_scroll_name": "2120c6b0",
 							"spell_check": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1637,7 +1639,7 @@
 		[
 			[
 				"",
-				"~/sites/batchjs/batchjs.sublime-project"
+				"C:\\sites\\browserify\\browserify.sublime-project"
 			],
 			[
 				"test",
