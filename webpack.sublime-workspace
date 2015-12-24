@@ -400,19 +400,43 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "todo.html",
 			"settings":
 			{
-				"buffer_size": 22,
+				"buffer_size": 425,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "todo.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 140,
-				"line_ending": "Windows"
+				"buffer_size": 173,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 512,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 146,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/App.js",
+			"settings":
+			{
+				"buffer_size": 187,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -423,13 +447,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "list",
+		"height": 127.0,
+		"last_filter": "alignment",
 		"selected_items":
 		[
 			[
-				"list",
-				"Package Control: List Packages"
+				"alignment",
+				"Preferences: Alignment File Settings – Syntax Specific – User"
+			],
+			[
+				"alignem",
+				"Preferences: Alignment File Settings – User"
 			],
 			[
 				"instal",
@@ -438,6 +466,18 @@
 			[
 				"remove",
 				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – User"
 			],
 			[
 				"mongo",
@@ -458,10 +498,6 @@
 			[
 				"enable",
 				"Package Control: Enable Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"s",
@@ -670,10 +706,27 @@
 	},
 	"expanded_folders":
 	[
-		"/C/sites/webpack"
+		"/Users/grantkiely/sites/webpack",
+		"/Users/grantkiely/sites/webpack/src"
 	],
 	"file_history":
 	[
+		"/Users/grantkiely/sites/webpack/server.js",
+		"/Users/grantkiely/sites/webpack/package.json",
+		"/Users/grantkiely/sites/webpack/webpack.config.js",
+		"/Users/grantkiely/sites/webpack/index.js",
+		"/Users/grantkiely/sites/webpack/player.jsx",
+		"/Users/grantkiely/sites/webpack/.babelrc",
+		"/Users/grantkiely/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/grantkiely/sites/webpack/base.css",
+		"/Users/grantkiely/sites/webpack/bear.css",
+		"/Users/grantkiely/sites/webpack/bear.js",
+		"/Users/grantkiely/Library/Application Support/Sublime Text 3/Packages/User/JavaScript (Babel).sublime-settings",
+		"/Users/grantkiely/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Users/grantkiely/Library/Application Support/Sublime Text 3/Packages/Terminal/Base File.sublime-settings",
+		"/Users/grantkiely/sites/webpack/index.html",
+		"/Users/grantkiely/sites/webpack/readme.md",
+		"/Users/grantkiely/sites/webpack/.gitignore",
 		"/Users/grantkiely/Library/Application Support/Sublime Text 3/Packages/User/mongo.sublime-build",
 		"/Users/grantkiely/sites/batchjs/mongo.js",
 		"/Users/grantkiely/sites/batchjs/index.js",
@@ -785,27 +838,11 @@
 		"/Users/grantkiely/sites/thoughtfulprofit/wp-content/themes/genesis/lib/structure/header.php",
 		"/Users/grantkiely/sites/thoughtfulprofit/wp-content/themes/genesis/footer.php",
 		"/Users/grantkiely/sites/thoughtfulprofit/wp-content/themes/genesis/header.php",
-		"/Users/grantkiely/sites/thoughtfulprofit/wp-content/themes/genesis/style.css",
-		"/Volumes/sdcard/downloads/backup_2015-07-10-1119_Thoughtful_Profit_6722fb5ce2ac-db",
-		"/Users/grantkiely/sites/thoughtfulprofit/wp-content/thoughtfulprofit/header.php",
-		"/Users/grantkiely/sites/thoughtfulprofit/wp-config.php",
-		"/Volumes/sdcard/downloads/grant_thoughtfulprofit.sql",
-		"/Users/grantkiely/sites/thoughtfulprofit/index.html",
-		"/Users/grantkiely/sites/landcom/wp-content/themes/landcom/src/sass/site/_base.scss",
-		"/Users/grantkiely/sites/landcom/wp-content/themes/landcom/src/sass/site/_overrides.scss",
-		"/Users/grantkiely/sites/landcom/wp-content/themes/landcom/src/sass/modules/_Text.scss",
-		"/Users/grantkiely/sites/landcom/wp-content/themes/landcom/src/sass/modules/_List.scss",
-		"/Users/grantkiely/sites/landcom/wp-content/themes/landcom/src/sass/site/_site.scss",
-		"/Users/grantkiely/sites/landcom/wp-content/themes/landcom/src/sass/sections/_Header.scss",
-		"/Users/grantkiely/sites/landcom/wp-content/themes/landcom/src/js/app/app.js",
-		"/Users/grantkiely/sites/landcom/wp-content/themes/landcom/src/sass/modules/_Icon.scss",
-		"/Users/grantkiely/sites/landcom/wp-content/themes/landcom/src/sass/modules/_Dropdown.scss",
-		"/Users/grantkiely/sites/landcom/wp-content/themes/landcom/partials/select-search-for-a-place.php",
-		"/Users/grantkiely/sites/landcom/wp-content/themes/landcom/partials/select-search-by-region.php"
+		"/Users/grantkiely/sites/thoughtfulprofit/wp-content/themes/genesis/style.css"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -994,32 +1031,128 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
+					"file": "todo.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22,
+						"buffer_size": 425,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9,
-								9
+								22,
+								22
 							]
 						],
 						"settings":
 						{
-							"auto_complete": true,
-							"bs_sintax": "plain text",
-							"buffer_scroll_name": "fac89fb4",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"bs_sintax": "html",
+							"buffer_scroll_name": "2120c6b0",
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "html",
+							"buffer_scroll_name": "7a6142e3",
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "javascript (babel)",
+							"buffer_scroll_name": "3d2cbce7",
+							"spell_check": false,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "javascript (babel)",
+							"buffer_scroll_name": "325a4057",
+							"spell_check": false,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1029,30 +1162,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "todo.html",
+					"buffer": 4,
+					"file": "src/App.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 140,
+						"buffer_size": 187,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								72,
-								72
+								135,
+								135
 							]
 						],
 						"settings":
 						{
-							"bs_sintax": "html",
-							"buffer_scroll_name": "2120c6b0",
-							"spell_check": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"auto_complete": false,
+							"bs_sintax": "javascript (babel)",
+							"buffer_scroll_name": "d72045fa",
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1117,6 +1248,50 @@
 		"selected_items":
 		[
 			[
+				"pack",
+				"package.json"
+			],
+			[
+				"webp",
+				"webpack.config.js"
+			],
+			[
+				"ser",
+				"server.js"
+			],
+			[
+				"serv",
+				"server.js"
+			],
+			[
+				"play",
+				"player.jsx"
+			],
+			[
+				"babe",
+				".babelrc"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"bear",
+				"bear.js"
+			],
+			[
+				"index",
+				"index.js"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"a",
+				"package.json"
+			],
+			[
 				"todo",
 				"todo.html"
 			],
@@ -1135,10 +1310,6 @@
 			[
 				"gi",
 				".gitignore"
-			],
-			[
-				"pack",
-				"package.json"
 			],
 			[
 				"app",
@@ -1171,10 +1342,6 @@
 			[
 				"index.test",
 				"src/js/testing/index.test.js"
-			],
-			[
-				"ind",
-				"src/html/pages/index.html"
 			],
 			[
 				"gul",
@@ -1409,10 +1576,6 @@
 				"wp-content/themes/landcom/front-page.php"
 			],
 			[
-				"index",
-				"wp-content/themes/landcom/index.php"
-			],
-			[
 				"wpc",
 				"wp-config.php"
 			],
@@ -1595,38 +1758,6 @@
 			[
 				"rea",
 				"dashboard/readme.md"
-			],
-			[
-				"items",
-				"dashboard/api/items.json"
-			],
-			[
-				"ream",
-				"dashboard/readme.md"
-			],
-			[
-				"noti",
-				"html/pages/notifications.mobile.html"
-			],
-			[
-				"inex",
-				"html/pages/index.html"
-			],
-			[
-				"r",
-				"readme.md"
-			],
-			[
-				"click",
-				"html/pages/clickedImage.html"
-			],
-			[
-				"page.",
-				"html/pages/page.mobile.html"
-			],
-			[
-				"index.m",
-				"html/pages/index.mobile.html"
 			]
 		],
 		"width": 0.0
@@ -1639,7 +1770,7 @@
 		[
 			[
 				"",
-				"C:\\sites\\browserify\\browserify.sublime-project"
+				"~/sites/react-hot-boilerplate/react-hot-boilterplate.sublime-project"
 			],
 			[
 				"test",
@@ -1704,8 +1835,8 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 241.0,
+	"side_bar_visible": false,
+	"side_bar_width": 215.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
