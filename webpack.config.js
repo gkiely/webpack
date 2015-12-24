@@ -1,5 +1,11 @@
+var webpack = require('webpack');
+
 module.exports = {
-  entry: './index.js',
+  entry: [
+    'webpack-dev-server/client?http://localhost:3000',
+    'webpack/hot/only-dev-server',
+    './index.js'
+  ],
   output: {
     path: __dirname,
     filename: 'bundle.js'
@@ -8,13 +14,13 @@ module.exports = {
     loaders: [
       { test: /\.css$/, loader: 'style!css!'},
       { 
-        test: /.jsx?$/,
-        loader: 'babel-loader',
+        test: /.js$/,
+        loaders: ['react-hot', 'babel' ],
         exclude: /node_modules/,
-        query:{
-          presets: ['es2015', 'react']
-        }
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ]
 };
