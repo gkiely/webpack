@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import Counter from './Counter';
 
+//import 'stylesheets/modules/container'
 
 var colors = {
   primary: "#777",
-  secondary:  "orange"
+  secondary:  "orange",
+  // secondary: "red"
 };
 
 
