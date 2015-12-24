@@ -1183,6 +1183,7 @@
 							"auto_complete": false,
 							"bs_sintax": "javascript (babel)",
 							"buffer_scroll_name": "d72045fa",
+							"spell_check": false,
 							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
 						},
 						"translation.x": 0.0,
